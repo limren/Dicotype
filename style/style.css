@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Brygada 1918", serif;
+}
+
+section {
+  background: #155d83;
+  height: 100vh;
+}
+.navbar {
+  width: 100%;
+  background: #1c1a32;
+  padding: 25px;
+}
+
+.navbar-title {
+  text-align: center;
+}
+.navbar-title h1 {
+  color: white;
+}
+.navbar-nav a {
+  text-decoration: none;
+  font-size: 28px;
+  color: white;
+}
+
+#game-words {
+  padding-top: 50px;
+}
+.game {
+  padding-top: 25px;
+  text-align: center;
+}
+.game a {
+  font-size: 25px;
+  color: white;
+}
+#score {
+  margin-top: 25px;
+}
+#game-set h3 {
+  margin: 20px;
+  font-size: 35px;
+}
+
+#input-word {
+  padding: 6px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.game-btn {
+  display: flex;
+  justify-content: center;
+}
+.game-btn button {
+  font-size: 18px;
+  margin: 20px;
+  width: 200px;
+  height: 50px;
+  background: #003e4f;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.game-btn button:hover {
+  color: #18162e;
+  background: #736e8d;
+}
+
+.select-lang,
+.select-mode {
+  display: flex;
+  justify-content: center;
+}
+
+.select-lang a,
+.select-mode a {
+  background: white;
+  padding: 80px;
+  margin: 50px;
+  font-size: 28px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #1c1a32;
+}
+
+.select-lang-title,
+.select-mode-title {
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 25px;
+}
