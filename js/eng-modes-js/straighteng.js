@@ -43,10 +43,12 @@ fetch("../../assets/json/words_list.json")
       anotherTimer = setInterval(() => {
         score.innerText = `Vous avez tapé ${actualScore} mots en ${time} secondes.`;
       }, 1);
+      btnStart.disabled = true;
     });
     btnStop.addEventListener("click", () => {
       wordInput.setAttribute("disabled", "");
       clearInterval(timer);
       clearInterval(anotherTimer);
+      btnStart.disabled = false;
     });
   });
